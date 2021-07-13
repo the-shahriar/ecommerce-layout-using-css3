@@ -201,10 +201,18 @@ Media Query
     padding: 0 10px;
   }
   .header {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 0 0 30px;
+    width: 100%;
+  }
+  .nav-menu a{
+    display: none;
+  }
+  .icons{
     display: none;
   }
   .hero-section {
-    flex-direction: column;
+    flex-direction: column
     width: 100%;
   }
   .color-text {
