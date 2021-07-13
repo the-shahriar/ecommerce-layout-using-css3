@@ -202,7 +202,7 @@ Media Query
   }
   .header {
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 0 0 30px;
+    padding: 0 0 0 20px;
   }
   .nav-menu a {
     display: none;
