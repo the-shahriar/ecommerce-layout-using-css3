@@ -203,17 +203,26 @@ Media Query
   .header {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 0 0 30px;
-    width: 100%;
   }
-  .nav-menu a{
+  .nav-menu a {
     display: none;
   }
-  .icons{
+  .icons {
     display: none;
   }
   .hero-section {
-    flex-direction: column
-    width: 100%;
+    flex-direction: column;
+  }
+  .hero-items {
+    order: 2;
+    margin-bottom: 40px;
+  }
+  .hero-image {
+    order: 1;
+    padding: 0;
+  }
+  .hero-image img {
+    padding-top: 30px;
   }
   .color-text {
     font-size: 1.2em;
