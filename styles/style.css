@@ -20,8 +20,8 @@ body {
 header {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 220px;
-  padding: 20px 60px;
+  grid-column-gap: 68px;
+  padding: 20px 0 20px 60px;
   align-items: center;
   background-color: #fff6e8;
 }
@@ -58,6 +58,7 @@ header {
 }
 .hero-title {
   font-size: 4em;
+  color: orange;
 }
 
 .color-text {
